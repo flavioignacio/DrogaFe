@@ -51,45 +51,70 @@
   .icons-navbar {
       padding-top: 10px
   }
-  .background {
-    padding-top: 5%;
-    padding-bottom: 5%;
+  .background-desktop {
+    padding-top: 10%;
+    padding-bottom: 10%;
     /* background: orange; */
     background-image: url('imagens/background.jpg');
-    background-size: 113%;
+    background-size: 100%;
+  }
+  .background-mobile {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* background: orange; */
+    background-image: url('imagens/background.jpg');
+    background-size: %;
   }
 </style>
 
 <body style="font-family: 'Montserrat';">
-  <div class="center background"><br class="hide-on-small-only">
+
+  <!-- DESKTOP -->
+  <div class="center background-desktop hide-on-small-only"><br class="hide-on-small-only">
     <div class="container">
-      <img src="imagens/logo.png" width="500" class="responsive-img hide-on-small-only">
-      <img src="imagens/logo.png" width="300" class="responsive-img hide-on-med-and-up">
-      <h5 class="white-text hide-on-small-only">A ENTREGA MAIS RÁPIDA DE MARÍLIA</h5>
-      <p  class="white-text hide-on-med-and-up" style="font-size: 15px;">A ENTREGA MAIS RÁPIDA DE MARÍLIA</p>
-      <div class="center animated infinite pulse" style="margin-top: 30px;">    
+      <div class="row">
+        <div class="col m8 animated fadeIn">
+          <img src="imagens/logo.png" width="500" class="responsive-img hide-on-small-only scrollreveal">
+          <h5 class="white-text hide-on-small-only scrollreveal">A ENTREGA MAIS RÁPIDA DE MARÍLIA</h5>
+          <div class="center animated infinite pulse scrollreveal" style="margin-top: 30px;">    
+            <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- MOBILE -->
+  <div class="center background-mobile hide-on-med-and-up"><br class="hide-on-small-only">
+    <div class="container">
+      <img src="imagens/logo.png" width="500" class="responsive-img hide-on-small-only scrollreveal">
+      <img src="imagens/logo.png" width="300" class="responsive-img hide-on-med-and-up scrollreveal">
+      <h5 class="white-text hide-on-small-only scrollreveal">A ENTREGA MAIS RÁPIDA DE MARÍLIA</h5>
+      <p  class="white-text hide-on-med-and-up scrollreveal" style="font-size: 15px;">A ENTREGA MAIS RÁPIDA DE MARÍLIA</p>
+      <div class="center animated infinite pulse scrollreveal" style="margin-top: 30px;">    
         <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
       </div>
     </div>  
   </div>
+  
 
   <div class="container center">
     <br><br>
     <h4><b>AS MELHORES OFERTAS!</b></h4>
     <br><br class="hide-on-small-only">
-    <div class="row hide-on-small-only">
+    <div class="row hide-on-small-only scrollreveal">
       <div class="col s6 m6 animated fadeIn">
         <img src="imagens/aptamil.png" width="230px" class="responsive-img">
       </div>
       <div class="col s6 m6 animated fadeIn">
         <b style="font-size: 17px" class="center">APTAMIL PREMIUM 800g - DANONE</b>
         <p class="left" Align="justify">
-          fórmula infantil a base de proteínas lácteas intactas, 
+          Fórmula infantil a base de proteínas lácteas intactas, 
           indicada para crianças entre 6 e 1 ano de vida. 
           Contém os exclusivos prebióticos Danone Nutricia, 
           adequada relação ômega 6, ômega 3, os ácidos graxos DHA e ARA, 
           além da presença de nucleotídeos. Seu teor de vitaminas A e C é adaptado ao 
-          Estudo Nutriplanet Brasil a. Contém lactose. Não contém glúten.
+          Estudo Nutriplanet Brasil. Contém lactose. Não contém glúten.
         </p>
         <br><b style="font-size: 40px">R$ 57<span style="font-size: 15px;">,90</span></b><br>
         <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
@@ -98,7 +123,7 @@
 
     <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
     
-    <div class="row hide-on-small-only">
+    <div class="row hide-on-small-only scrollreveal">
       <div class="col s6 m6 animated fadeIn">
         <b style="font-size: 17px">FRALDA DESCARTÁVEL EVOLUTION TAM. G 44 unid.</b>
         <p class="left" Align="justify">
@@ -119,17 +144,21 @@
 
     <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
 
-    <div class="row hide-on-small-only">
+    <div class="row hide-on-small-only scrollreveal">
       <div class="col s6 m6 animated fadeIn">
         <img src="imagens/teste-covid.png" width="300px" class="responsive-img">
       </div>
       <div class="col s6 m6 animated fadeIn">
-        <p class="left"> 
-          <b style="font-size: 17px">PRODUTO 3</b>
-          <br>descrição
-          <br><b style="font-size: 40px">R$ 000</b><br>
-          <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+        <b style="font-size: 17px">AUTOTESTE PARA COVID-19 - PROXIMA</b>
+        <p class="left" Align="justify">
+          O autoteste Proxima Covid-19 Ag é utilizado para obter o resultado 
+          rápido da infecção ativa pelo SARS-CoV-2.
+        <div class="center">
+          <img src="imagens/ico3.svg" class="responsive-img">
+        </div>
         </p>
+        <br><b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
+        <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
       </div>
     </div>
 
@@ -178,18 +207,12 @@
         <br><br>
       </div>
     </div>
-
     <br>
-
     <p>RECEBA O SEU PRODUTO NO CONFORTO DO SEU LAR | AS MELHORES OFERTAS DE MARÍLIA VOCÊ ENCONTRA AQUI </p>
-    
     <br>
-    
     <div>
       <a  href="" class="animated infinite pulse waves-light btn-large orange accent-4"><i class="material-icons left">phone</i><b>LIGUE AGORA</b></a>
     </div>
-    
-    <br><br>
   </div>
 
   <div>
@@ -197,7 +220,7 @@
     <p style="margin-top: -90px" class="hide-on-med-and-down"></p>
     <p style="margin-top: -30px" class="hide-on-large-only"></p>
     <div class="background: orange">
-      <div class="container center white-text">
+      <div class="container center white-text scrollreveal">
         <br>
         <h4><b>ENCONTRE-NOS</b></h4>
         <p>AV. TOMÉ DE SOUZA, 528 - JARDIM MONTE CASTELO, MARÍLIA/SP</P>
@@ -217,7 +240,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#ff9800" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,122.7C672,85,768,75,864,85.3C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
   </div>
   
-  <div class="center">
+  <div class="center scrollreveal">
     <br>
     <h4><b>HORÁRIO DE FUNCIONAMENTO</b></h4>
     <p>SEGUNDA À SEXTA: 08:00 - 19:00</p>
@@ -243,7 +266,7 @@
 
   <!-- MOBILE -->
   <div class="fixed-action-btn hide-on-med-and-up animated infinite pulse">
-    <a class="btn-floating btn waves-effect waves-light" href=""><img src=imagens/btn-whats.png class=responsive-img></a>
+    <a class="btn-floating btn-large waves-effect waves-light" href=""><img src=imagens/btn-whats.png class=responsive-img></a>
   </div>
 
   <br><br>
@@ -264,6 +287,8 @@
 
 
 <script>
+
+ScrollReveal().reveal('.scrollreveal');
     
 </script>
 </body>
