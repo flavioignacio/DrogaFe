@@ -1,292 +1,346 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="cache-control" content="public" /> 
-    <meta name="robots" content="index,follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="geo.region" content="SP"/>
-    <meta name="theme-color" content="#000">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <meta name="msapplication-navbutton-color" content="#000">
-    
-    <!--ENTRADA PARA BUSCADORES-->
-    <meta name="title" content="Droga Fé Marília">
-    <meta name="description" content="Representante Autorizado em Marília"/>
-    <meta property="og:description" content="A Droga Fé  tem os Melhores Preços em Produtos de Bem-Estar, Beleza e Saúde"/>
-    <meta name="keywords" content="Farmácia Droga Fé Marília contamos com a entrega mais rápida de Marília/SP"/>
-    <meta name="author" content="Farmácia Droga Fé"/>
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="google-site-verification" content="xpfvLPC93tmTU8oSomNsnHzmiMAHOWTdVHs5Rd1tjGo" />
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta http-equiv="cache-control" content="public" /> 
+      <meta name="robots" content="index,follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="geo.region" content="SP"/>
+      <meta name="theme-color" content="#000">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+      <meta name="msapplication-navbutton-color" content="#000">
+      
+      <!--ENTRADA PARA BUSCADORES-->
+      <meta name="title" content="Droga Fé Marília">
+      <meta name="description" content="Representante Autorizado em Marília"/>
+      <meta property="og:description" content="A Droga Fé tem os Melhores Preços em Produtos de Bem-Estar, Beleza e Saúde"/>
+      <meta name="keywords" content="Farmácia Droga Fé Marília contamos com a entrega mais rápida de Marília/SP"/>
+      <meta name="author" content="Farmácia Droga Fé"/>
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="google-site-verification" content="xpfvLPC93tmTU8oSomNsnHzmiMAHOWTdVHs5Rd1tjGo" />
 
-    <title>Farmácia Droga Fé Marília</title>
+      <title>Farmácia Droga Fé Marília</title>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon.ico">
+      <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon.ico">
 
-  <!--CSS-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" >
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-</head>
+    <!--CSS-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" >
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  </head>
 
-<style>
-  .input-field .prefix.active {
-    color: blue!important;
-  }
-  .autocomplete-content li .highlight {
-    color: blue !important;
-  }
-  .back-navbar {
-      background: orange
-  }
-  .img-navbar {
-      margin-top: 7px
-  }
-  .footer {
-      background: #000
-  }
-  .icons-navbar {
-      padding-top: 10px
-  }
-  .background-desktop {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    /* background: orange; */
-    background-image: url('imagens/background.jpg');
-    background-size: 109%;
-  }
-  .background-mobile {
-    padding-top: 5%;
-    background-image: url('imagens/background-mobile.jpg');
-    background-size: 150%;
-  }
-</style>
+  <style>
+    .back-navbar {
+        background: #ff6c00 
+    }
+    .img-navbar {
+        margin-top: 7px
+    }
+    .footer {
+        background: #000
+    }
+    .icons-navbar-desktop {
+        padding-top: 11px
+    }
+    .background-desktop {
+      padding-top: 6%;
+      padding-bottom: 10%;
+      background-image: url('imagens/background-min.jpg');
+      background-size: 109%;
+    }
+    .background-mobile {
+      padding-top: 5%;
+      background-image: url('imagens/background-mobile-min.webp');
+      background-size: 150%;
+    }
+  </style>
 
-<body style="font-family: 'Montserrat';">
+  <body style="font-family: 'Montserrat';">
 
-  <!-- DESKTOP -->
-  <div class="center background-desktop hide-on-small-only"><br class="hide-on-small-only">
-    <div class="container">
-      <div class="row">
-        <div class="col m8 animated">
-          <img src="imagens/logo.png" width="500" class="responsive-img hide-on-small-only">
-          <h5 class="white-text hide-on-small-only">A ENTREGA MAIS RÁPIDA DE MARÍLIA</h5>
-          <div class="center animated infinite pulse" style="margin-top: 30px;">    
-            <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
+    <!---BARRA DE NAVEGAÇÃO-->
+    <div class="navbar-fixed scrollspy" id="home">
+      <nav class="back-navbar">
+        <div class="container nav-wrapper"><a href="#home" class="infonav hide-on-small-only hide-on-med-only"><img src="imagens/logo.png" width="150" style="margin-top: 6px"></b>
+          <a href="#inicio" class="brand-logo left scrollpsy"><img src="imagens/logo.png" width="130" style="margin-top: 6px" class="responsive-img hide-on-large-only"></a></a>
+          <div class="right">
+            <a class="btn white-text hide-on-large-only green" href="tel:01433010047"><i class="material-icons left" style="margin-top:-10px">phone</i><b>3301-0047</b></a>
+            <a href=https://www.facebook.com/drogafemarilia target=_blank><img src=imagens/facebook.png class="responsive-img icons-navbar-desktop hide-on-small-only hide-on-med-only" width=40></a>
+            <a href=https://www.instagram.com/drogafemariliasp target=_blank><img src=imagens/instagram.png class="responsive-img icons-navbar-desktop hide-on-small-only hide-on-med-only" width=40></a>
+          </div>
+          </nav>
+        </div>
+    </div>
+    <!-- FIM BARRA DE NAVEGAÇÃO -->
+
+    <!-- DESKTOP -->
+    <div class="center background-desktop hide-on-small-only"><br class="hide-on-small-only">
+      <div class="container">
+        <div class="row">
+          <div class="col m8 animated">
+            <img src="imagens/logo.png" width="500" class="responsive-img hide-on-small-only">
+            <h5 class="white-text hide-on-small-only">A ENTREGA MAIS RÁPIDA DE MARÍLIA</h5>
+            <div class="center animated infinite pulse" style="margin-top: 30px;">    
+              <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>  
-  </div>
-
-  <!-- MOBILE -->
-  <div class="center background-mobile hide-on-med-and-up"><br class="hide-on-small-only">
-    <div class="container">
-      <img src="imagens/logo.png" width="300" class="responsive-img hide-on-med-and-up scrollreveal">
-      <p  class="white-text hide-on-med-and-up scrollreveal" style="font-size: 15px;">A ENTREGA MAIS RÁPIDA DE MARÍLIA</p>
-      <div class="center animated infinite pulse scrollreveal" style="margin-top: 30px;">    
-        <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
-      </div>
-      <img src="imagens/farmaceutica.png" width="200" class="responsive-img hide-on-med-and-up" style="margin-bottom: -7px">
-    </div>  
-  </div>
-  
-
-  <div class="container center">
-    <br><br>
-    <h4><b>AS MELHORES OFERTAS!</b></h4>
-    <br><br class="hide-on-small-only">
-    <div class="row hide-on-small-only scrollreveal">
-      <div class="col s6 m6 animated fadeIn">
-        <img src="imagens/aptamil.png" width="230px" class="responsive-img">
-      </div>
-      <div class="col s6 m6 animated fadeIn">
-        <b style="font-size: 17px" class="center">APTAMIL PREMIUM 800g - DANONE</b>
-        <p class="left" Align="justify">
-          Fórmula infantil a base de proteínas lácteas intactas, 
-          indicada para crianças entre 6 e 1 ano de vida. 
-          Contém os exclusivos prebióticos Danone Nutricia, 
-          adequada relação ômega 6, ômega 3, os ácidos graxos DHA e ARA, 
-          além da presença de nucleotídeos. Seu teor de vitaminas A e C é adaptado ao 
-          Estudo Nutriplanet Brasil. Contém lactose. Não contém glúten.
-        </p>
-        <br><b style="font-size: 40px">R$ 57<span style="font-size: 15px;">,90</span></b><br>
-        <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-      </div>
+      </div>  
     </div>
-
-    <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
-    
-    <div class="row hide-on-small-only scrollreveal">
-      <div class="col s6 m6 animated fadeIn">
-        <b style="font-size: 17px">FRALDA DESCARTÁVEL EVOLUTION TAM. G 44 unid.</b>
-        <p class="left" Align="justify">
-          A fralda Descartável Evolution G proporciona ao seu bebe sensação de frescor 
-          e suavidade durante todo o dia. Proporciona conforto e toque delicado.
-          Atua na proteção da pele através do seu toque suave externo que previne irritações e 
-          assaduras proporcionando conforto e segurança ao bebê. Suas camadas de gel super absorventes 
-          garantem total liberdade de movimentos e tranquilidade durante todo o dia a criança.
-        </p>
-        <br><b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
-        <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-        </p>
-      </div>
-      <div class="col s6 m6 animated fadeIn">
-        <img src="imagens/fralda-evolution.png" width="180px" class="responsive-img">
-      </div>
-    </div>
-
-    <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
-
-    <div class="row hide-on-small-only scrollreveal">
-      <div class="col s6 m6 animated fadeIn">
-        <img src="imagens/teste-covid.png" width="300px" class="responsive-img">
-      </div>
-      <div class="col s6 m6 animated fadeIn">
-        <b style="font-size: 17px">AUTOTESTE PARA COVID-19 - PROXIMA</b>
-        <p class="left" Align="justify">
-          O autoteste Proxima Covid-19 Ag é utilizado para obter o resultado 
-          rápido da infecção ativa pelo SARS-CoV-2.
-        <div class="center">
-          <img src="imagens/ico3.svg" class="responsive-img">
-        </div>
-        </p>
-        <br><b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
-        <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-      </div>
-    </div>
+    <!-- FIM DESKTOP -->
 
     <!-- MOBILE -->
-    <div class="col s12 animated fadeIn hide-on-med-and-up">
-      <div class="card">
-        <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
-        <br><br>
-        <img src="imagens/aptamil.png" width="180px" class="responsive-img">
-        <p>
-          <b>APTAMIL PREMIUM 800g</b>
-          <br>descrição
-          <br><b style="font-size: 40px">R$ 000</b><br>
-        </p>
-        <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Cral 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-        <br><br>
-      </div>
+    <div class="center background-mobile hide-on-med-and-up"><br class="hide-on-small-only">
+      <div class="container">
+        <img src="imagens/logo.png" width="300" class="responsive-img hide-on-med-and-up scrollreveal">
+        <p  class="white-text hide-on-med-and-up scrollreveal" style="font-size: 15px;">A ENTREGA MAIS RÁPIDA DE MARÍLIA</p>
+        <div class="center animated infinite pulse scrollreveal" style="margin-top: 30px;">    
+          <a href="" ><img src="imagens/atendimento-whats.png" class="responsive-img" width="250"></a>
+        </div>
+        <img src="imagens/farmaceutica.webp" width="200" class="responsive-img hide-on-med-and-up scrollreveal" style="margin-bottom: -7px">
+      </div>  
     </div>
-        
-    <div class="col s6 m6 animated fadeIn hide-on-med-and-up">
-      <div class="card">
-        <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
-        <br><br>
-        <img src="imagens/produto.png" width="250px" class="responsive-img">
-        <p>
-          <b>PRODUTO 2</b>
-          <br>descrição
-          <br><b style="font-size: 40px">R$ 000</b><br>
-        </p>
-        <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Moura 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-        <br><br>
-      </div>
-    </div>
+    <!-- FIM MOBILE -->
 
-    <div class="col s6 m6 animated fadeIn hide-on-med-and-up">
-      <div class="card">
-        <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
-        <br><br>
-        <img src="imagens/produto.png" width="220px" class="responsive-img">
-        <p>
-          <b>PRODUTO 3</b>
-          <br>descrição
-          <br><b style="font-size: 40px">R$ 000</b><br>
-        </p>
-        <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Heliar 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
-        <br><br>
-      </div>
-    </div>
-    <br>
-    <p>RECEBA O SEU PRODUTO NO CONFORTO DO SEU LAR | AS MELHORES OFERTAS DE MARÍLIA VOCÊ ENCONTRA AQUI </p>
-    <br>
-    <div>
-      <a  href="" class="animated infinite pulse waves-light btn-large orange accent-4"><i class="material-icons left">phone</i><b>LIGUE AGORA</b></a>
-    </div>
-  </div>
-
-  <div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff6c00" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,122.7C672,85,768,75,864,85.3C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    <p style="margin-top: -90px" class="hide-on-med-and-down"></p>
-    <p style="margin-top: -30px" class="hide-on-large-only"></p>
-    <div style="background: #ff6c00">
-      <div class="container center white-text scrollreveal">
-        <br>
-        <h4><b>ENCONTRE-NOS</b></h4>
-        <p>AV. TOMÉ DE SOUZA, 528 - JARDIM MONTE CASTELO, MARÍLIA/SP</P>
-        <p>SUA FARMÁCIA COM MEDICAMENTOS, REMÉDIOS GENÉRICOS, DERMOCOSMÉTICOS, ITENS DE CUIDADO DIÁRIO, PRODUTOS PARA CRIANÇAS E MUITO MAIS</p>
-        <div class="row">
-          <div class="col s12 m6 animated fadeIn">
-            <iframe async src="https://www.google.com/maps/embed?pb=!4v1667852639770!6m8!1m7!1sCAoSLEFGMVFpcE1POWdZcTZTbEk2T2I2YXRLeTN2ZlhVbmZ4WkZhVm1aZ05iN01J!2m2!1d-22.2452253!2d-49.9358546!3f11.449809200405117!4f-3.6913789140194098!5f0.7820865974627469" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col s12 m6 animated fadeIn">
-            <iframe async src="https://www.google.com/maps/embed?pb=!4v1667843308716!6m8!1m7!1sCAoSLEFGMVFpcE5mbS02b2lOYlJoWVM4RmVNM0s3eXVhNkgxaTlNdlNxbVJnTl9y!2m2!1d-22.2452253!2d-49.9358546!3f200!4f0!5f0.7820865974627469" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="center" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+    <div class="container center">
+      <br><br>
+      <h4 class="scrollreveal"><b>AS MELHORES OFERTAS!</b></h4>
+      <br><br class="hide-on-small-only">
+      <div class="row hide-on-small-only scrollreveal">
+        <div class="col s6 m6 animated fadeIn">
+          <img src="imagens/aptamil.png" width="230px" class="responsive-img">
+        </div>
+        <div class="col s6 m6 animated fadeIn">
+          <b style="font-size: 17px" class="center">APTAMIL PREMIUM 800g - DANONE</b>
+          <p class="left" Align="justify">
+            Fórmula infantil a base de proteínas lácteas intactas, 
+            indicada para crianças entre 6 e 1 ano de vida. 
+            Contém os exclusivos prebióticos Danone Nutricia, 
+            adequada relação ômega 6, ômega 3, os ácidos graxos DHA e ARA, 
+            além da presença de nucleotídeos. Seu teor de vitaminas A e C é adaptado ao 
+            Estudo Nutriplanet Brasil. Contém lactose. Não contém glúten.
+          </p>
+          <br><b style="font-size: 40px">R$ 57<span style="font-size: 15px;">,90</span></b><br>
+          <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
         </div>
       </div>
+
+      <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
+      
+      <div class="row hide-on-small-only scrollreveal">
+        <div class="col s6 m6 animated fadeIn">
+          <b style="font-size: 17px">FRALDA DESCARTÁVEL EVOLUTION TAM. G 44 unid.</b>
+          <p class="left" Align="justify">
+            A fralda Descartável Evolution G proporciona ao seu bebe sensação de frescor 
+            e suavidade durante todo o dia. Proporciona conforto e toque delicado.
+            Atua na proteção da pele através do seu toque suave externo que previne irritações e 
+            assaduras proporcionando conforto e segurança ao bebê. Suas camadas de gel super absorventes 
+            garantem total liberdade de movimentos e tranquilidade durante todo o dia a criança.
+          </p>
+          <br><b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
+          <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+          </p>
+        </div>
+        <div class="col s6 m6 animated fadeIn">
+          <img src="imagens/fralda-evolution.png" width="180px" class="responsive-img">
+        </div>
+      </div>
+
+      <br class="hide-on-small-only"><br class="hide-on-small-only"><br class="hide-on-small-only">
+
+      <div class="row hide-on-small-only scrollreveal">
+        <div class="col s6 m6 animated fadeIn">
+          <img src="imagens/teste-covid.png" width="300px" class="responsive-img">
+        </div>
+        <div class="col s6 m6 animated fadeIn">
+          <b style="font-size: 17px">AUTOTESTE PARA COVID-19 - PROXIMA</b>
+          <p class="left" Align="justify">
+            O autoteste Proxima Covid-19 Ag é utilizado para obter o resultado 
+            rápido da infecção ativa pelo SARS-CoV-2.
+          <div class="center">
+            <img src="imagens/ico3.svg" class="responsive-img">
+          </div>
+          </p>
+          <br><b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
+          <a href="" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+        </div>
+      </div>
+
+      <!-- MOBILE -->
+      <div class="col s12 animated fadeIn hide-on-med-and-up scrollreveal">
+        <div class="card">
+          <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
+          <br><br>
+          <img src="imagens/aptamil.png" width="180px" class="responsive-img">
+          <p>
+            <b>APTAMIL PREMIUM 800g</b>
+            <div class="card-content">
+              <p Align="justify">
+                Fórmula infantil a base de proteínas lácteas intactas, 
+                indicada para crianças entre 6 e 1 ano de vida. 
+                Contém os exclusivos prebióticos Danone Nutricia, 
+                adequada relação ômega 6, ômega 3, os ácidos graxos DHA e ARA, 
+                além da presença de nucleotídeos. Seu teor de vitaminas A e C é adaptado ao 
+                Estudo Nutriplanet Brasil. Contém lactose. Não contém glúten.
+              </p>
+            </div>
+            <b style="font-size: 40px">R$ 57<span style="font-size: 15px;">,90</span></b><br>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Cral 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+          <br><br>
+        </div>
+      </div>
+          
+      <div class="col s6 m6 animated fadeIn hide-on-med-and-up scrollreveal">
+        <div class="card">
+          <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
+          <br><br>
+          <img src="imagens/fralda-evolution.png" width="150px" class="responsive-img">
+          <p>
+            <b>FRALDA DESCARTÁVEL EVOLUTION TAM. G 44 unid.</b>
+            <div class="card-content">
+              <p Align="justify">
+                A fralda Descartável Evolution G proporciona ao seu bebe sensação de frescor 
+                e suavidade durante todo o dia. Proporciona conforto e toque delicado.
+                Atua na proteção da pele através do seu toque suave externo que previne irritações e 
+                assaduras proporcionando conforto e segurança ao bebê. Suas camadas de gel super absorventes 
+                garantem total liberdade de movimentos e tranquilidade durante todo o dia a criança.
+              </p>
+            </div>
+            <b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Moura 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+          <br><br>
+        </div>
+      </div>
+
+      <div class="col s6 m6 animated fadeIn hide-on-med-and-up scrollreveal">
+        <div class="card">
+          <span class="new badge red" data-badge-caption="PROMOÇÃO"></span>
+          <br><br>
+          <img src="imagens/teste-covid.png" width="220px" class="responsive-img">
+          <p>
+            <b>AUTOTESTE PARA COVID-19 - PROXIMA</b>
+            <div class="card-content">
+              <p Align="justify">
+                O autoteste Proxima Covid-19 Ag é utilizado para obter o resultado 
+                rápido da infecção ativa pelo SARS-CoV-2.
+                <br class="hide-on-med-and-up"> <br class="hide-on-med-and-up">
+              <div class="center">
+                <img src="imagens/ico3.svg" class="responsive-img">
+              </div>
+              </p>
+            </div>
+            <b style="font-size: 40px">R$ 49<span style="font-size: 15px;">,90</span></b><br>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=551434330722&text=Olá! A Bateria Heliar 60ah está disponível?" target=_blank><button class="btn green fonte2 white-text"><b>CONSULTE</b></button></a>
+          <br><br>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="center scrollreveal">
+        <br>
+        <h4><b>FORMAS DE PAGAMENTO</b></h4>
+        <div class="row">
+          <div class="col s12 offset-m3 m2 animated fadeIn">
+            <p>PAGUE COM</p>
+            <img src="imagens/pix.png" width="200px" class="responsive-img">
+          </div>
+          <div class="col s12 m6 animated fadeIn">
+            <br class="hide-on-med-and-up">
+            <p>PARCELE EM ATÉ 3X NO CARTÃO</p>
+            <img src="imagens/visa-master.jpg" width="200px" class="responsive-img">
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div class="center scrollreveal">
+        <br><br>
+        <h4><b>LIGUE AGORA E FALE CONOSCO</b></h4>
+        <p>RECEBA O SEU PRODUTO NO CONFORTO DO SEU LAR | AS MELHORES OFERTAS DE MARÍLIA VOCÊ ENCONTRA AQUI </p>
+        <br>
+        <div>
+          <a  href="tel:01433010047" class="animated infinite pulse waves-light btn-large orange accent-4"><i class="material-icons left">phone</i><b>LIGUE AGORA</b></a>
+        </div>
+      </div>
+    </div>
+      
+    <br class="hide-on-med-and-up">
+
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff6c00" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,122.7C672,85,768,75,864,85.3C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <p style="margin-top: -90px" class="hide-on-med-and-down"></p>
+      <p style="margin-top: -30px" class="hide-on-large-only"></p>
+      <div style="background: #ff6c00">
+        <div class="container center white-text scrollreveal">
+          <br>
+          <h4><b>ENCONTRE-NOS</b></h4>
+          <p>AV. TOMÉ DE SOUZA, 528 - JARDIM MONTE CASTELO, MARÍLIA/SP</P>
+          <p>SUA FARMÁCIA COM MEDICAMENTOS, REMÉDIOS GENÉRICOS, DERMOCOSMÉTICOS, ITENS DE CUIDADO DIÁRIO, PRODUTOS PARA CRIANÇAS E MUITO MAIS</p>
+          <div class="row">
+            <div class="col s12 m6 animated fadeIn">
+              <iframe async src="https://www.google.com/maps/embed?pb=!4v1667852639770!6m8!1m7!1sCAoSLEFGMVFpcE1POWdZcTZTbEk2T2I2YXRLeTN2ZlhVbmZ4WkZhVm1aZ05iN01J!2m2!1d-22.2452253!2d-49.9358546!3f11.449809200405117!4f-3.6913789140194098!5f0.7820865974627469" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col s12 m6 animated fadeIn">
+              <iframe async src="https://www.google.com/maps/embed?pb=!4v1667843308716!6m8!1m7!1sCAoSLEFGMVFpcE5mbS02b2lOYlJoWVM4RmVNM0s3eXVhNkgxaTlNdlNxbVJnTl9y!2m2!1d-22.2452253!2d-49.9358546!3f200!4f0!5f0.7820865974627469" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="center" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </div>
+      <p style="margin-top: -35px"></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#ff6c00" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,122.7C672,85,768,75,864,85.3C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </div>
+  
+    <div class="center scrollreveal">
+      <br>
+      <h4><b>HORÁRIO DE FUNCIONAMENTO</b></h4>
+      <p>SEGUNDA À SEXTA: 08:00 - 19:00</p>
+      <p>SÁBADO: 09:00 - 19:00</p>
       <br><br>
     </div>
-    <p style="margin-top: -35px"></p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#ff6c00" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,122.7C672,85,768,75,864,85.3C960,96,1056,128,1152,144C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-  </div>
   
-  <div class="center scrollreveal">
-    <br>
-    <h4><b>HORÁRIO DE FUNCIONAMENTO</b></h4>
-    <p>SEGUNDA À SEXTA: 08:00 - 19:00</p>
-    <p>SÁBADO: 09:00 - 19:00</p>
-    <br><br>
-  </div>
-  
-  <div class="container center">
-    <div class="row">
-      <div class="col s6 m3 offset-m3 animated fadeIn">
-        <a  href="" class="waves-light btn orange accent-4"><i class="material-icons left">phone</i><b>LIGUE agora</b></a>
-      </div>
-      <div class="col s6 m3 animated fadeIn">
-        <a  href="" class="waves-light btn green"><i class="material-icons left">chat</i><b>chat</b></a>
+    <div class="container center">
+      <div class="row">
+        <div class="col s6 m3 offset-m3 animated fadeIn">
+          <a  href="tel:01433010047" class="waves-light btn orange accent-4"><i class="material-icons left">phone</i><b>LIGUE AGORA</b></a>
+        </div>
+        <div class="col s6 m3 animated fadeIn">
+          <a  href="" class="waves-light btn green"><i class="material-icons left">chat</i><b>chat</b></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- DESKTOP -->
-  <div class="fixed-action-btn tooltipped hide-on-med-and-down" data-tooltip="Converse Conosco" data-position="left">
-    <a class="btn-floating btn-large waves-effect waves-light" data-tooltip="I am a tooltip" data-position="bottom" href=""><img src=imagens/btn-whats.png class=responsive-img width=70></a>
-  </div>
+    <!-- WHATSAPP DESKTOP -->
+    <div class="fixed-action-btn tooltipped hide-on-med-and-down" data-tooltip="Converse Conosco" data-position="left">
+      <a class="btn-floating btn-large waves-effect waves-light" data-tooltip="I am a tooltip" data-position="bottom" href=""><img src=imagens/btn-whats.png class=responsive-img width=70></a>
+    </div>
 
-  <!-- MOBILE -->
-  <div class="fixed-action-btn hide-on-med-and-up animated infinite pulse">
-    <a class="btn-floating btn-large waves-effect waves-light" href=""><img src=imagens/btn-whats.png class=responsive-img></a>
-  </div>
+    <!-- WHATSAPP MOBILE -->
+    <div class="fixed-action-btn hide-on-med-and-up animated infinite pulse">
+      <a class="btn-floating btn-large waves-effect waves-light" href=""><img src=imagens/btn-whats.png class=responsive-img></a>
+    </div>
 
-  <br><br>
-  <!--RODAPÉ-->
-  <div class="footer"><br>
-    <div class="center">
-      <a class="white-text"> © 2022 DROGA FÉ MARÍLIA | AV. TOMÉ DE SOUZA, 528 - JARDIM MONTE CASTELO, MARÍLIA/SP</a>
-    </div><br>
-  </div>
-  <!--FIM RODAPÉ-->
+    <br><br>
+    <!--RODAPÉ-->
+    <div class="footer"><br>
+      <div class="center">
+        <a class="white-text"> © 2022 DROGA FÉ MARÍLIA | AV. TOMÉ DE SOUZA, 528 - JARDIM MONTE CASTELO, MARÍLIA/SP</a>
+      </div><br>
+    </div>
 
-<!--SCRIPTS-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-<!--FIM SCRIPTS -->
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
-
-<script>
-
-ScrollReveal().reveal('.scrollreveal');
-    
-</script>
-</body>
+    <script>
+      ScrollReveal().reveal('.scrollreveal');
+    </script>
+  </body>
 </html>
